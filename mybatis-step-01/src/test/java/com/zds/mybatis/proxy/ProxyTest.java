@@ -7,5 +7,6 @@ public class ProxyTest {
         Greeting greetingImpl = (Greeting) java.lang.reflect.Proxy.newProxyInstance
                 (greetingProxy.getClass().getClassLoader(), greeting.getClass().getInterfaces(), greetingProxy);
         greetingImpl.greeting();
+        System.out.println(greetingImpl.toString());
     }
 }
