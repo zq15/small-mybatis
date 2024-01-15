@@ -5,6 +5,7 @@ import com.zds.mybatis.session.SqlSession;
 import com.zds.mybatis.session.SqlSessionFactory;
 import com.zds.mybatis.session.SqlSessionFactoryBuilder;
 import com.zds.mybatis.test.dao.IUserDao;
+import com.zds.mybatis.test.po.User;
 
 import java.io.Reader;
 
