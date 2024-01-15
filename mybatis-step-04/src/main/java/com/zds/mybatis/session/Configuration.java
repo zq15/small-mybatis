@@ -26,8 +26,12 @@ public class Configuration {
 
     public Configuration() {
         // 初始化别名
-        typeAliasRegistry.registerAlias("JDBC", JdbcTransactionFactory.class);
+        typeAliasRegistry.registerAlias("jdbc", JdbcTransactionFactory.class);
         typeAliasRegistry.registerAlias("druid", DruidDataSourceFactory.class);
+    }
+
+    public Environment getEnvironment() {
+        return environment;
     }
 
     public void setEnvironment(Environment environment) {

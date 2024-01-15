@@ -20,6 +20,10 @@ public final class Environment {
         // disable constructor
     }
 
+    public DataSource getDataSource() {
+        return dataSource;
+    }
+
     // 内部静态构建器类
     public static class Builder {
         private Environment environment = new Environment();
