@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi.asset</groupId>
+    <groupId>com.zds.mybatis</groupId>
     <artifactId>small-mybatis</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -13,6 +13,7 @@
         <module>mybatis-step-02</module>
         <module>mybatis-step-03</module>
         <module>mybatis-step-04</module>
+        <module>mybatis-step-05</module>
     </modules>
 
     <properties>
